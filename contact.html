@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>conatct</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+
+        }
+       .contact-section{
+        background-image: url(https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/contact-hero-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+       } 
+       
+       
+       header{
+         display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 80px;
+            box-sizing: border-box;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 1100px;
+       }
+       .links{
+        display: flex;
+        gap: 20px;
+       }
+       .links a{
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+       }
+       .logo img{
+        height: 45px;
+        width: 50px;
+       }
+       .text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        
+       }
+       .text h1{
+        color: white;
+        font-size: 50px;
+        font-weight: normal;
+        margin: 0;
+        margin-bottom: 10px;
+       }
+
+
+
+
+       /* form */
+       .contact-container{
+        display: flex;
+        max-width: 1200px;
+        width: 100%;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+       padding: 20px;
+       margin: 0 auto;
+    
+       }
+       .info-column{
+        flex: 1;
+        min-width: 300px;
+        
+       }
+       .form-column{
+        flex: 2;
+        width: 100%;
+       
+       
+       }
+       h2{
+        font-size: 28px;
+        font-weight: normal;
+        margin-bottom: 30px;
+        color: rgb(109, 120, 109);
+       }
+       .info-group{
+        margin-bottom: 25px;
+       }
+       .info-label{
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 5px;
+        color: rgb(132, 156, 132);
+       }
+       .info-value{
+        font-size: 16px;
+color: rgb(103, 145, 103);
+       }
+       .social-icon{
+        display: flex;
+        gap: 15px;
+        margin-top: 30px;
+       }
+     .social-icon .icon{
+        width: 35px;
+        height: 35px;
+        background-color: rgb(42, 94, 42);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+
+       .form-group{
+        margin-bottom: 20px;
+        width: 100%;
+       }
+        
+       input[type="text"],input[type="email"],textarea{
+        width: 100%;
+        max-width: 400px;
+        padding: 12px;
+        border:  rgb(208, 62, 62);
+        border-radius: 4px;
+        font-size: 14px;
+        background-color: rgb(212, 212, 212);
+        box-sizing: border-box;
+
+       }
+       textarea{
+        height: 100%;
+        max-width: 400px;
+        padding: 15px;
+        font-size: 16px;
+
+        
+       }
+       .submit-btn {
+            background-color: #e0a96d;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 14px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .submit-btn:hover {
+            background-color: #d0985c;
+        }
+        /* images */
+        .images{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 40px;
+            margin-bottom: 30px;
+            background-color: rgb(240, 237, 237);
+        }
+         h1 {
+            text-align: center;
+            color: rgb(64, 161, 64);
+            margin-top: 40px;
+            padding: 10px;
+        }
+        
+        .image-box {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding-bottom: 40px;
+        }
+
+        
+        .image {
+            width: 170px;
+            height: 170px;
+            background-color: #ffffff; 
+            overflow: hidden; 
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08); 
+        }
+       
+        
+        .image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;         
+            object-position: center top;  
+        }
+
+
+ .footer{
+    
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 10%;
+    box-sizing: border-box;
+ }
+ .question-links a{
+    text-decoration: none;
+    color: gray;
+    padding: 0 10px;
+ }
+
+   .footer-right{
+    color:gray ;
+   }  
+    .footer-image img{
+    width: 40px;
+   }
+        
+    </style>
+</head>
+<body>
+    <section class="contact-section">
+        <header>
+            <div class="logo">
+                <img src="https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/logo-white.svg" alt="">
+            </div>
+            <div class="links">
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </header>
+        <div class="text">
+            <h1>contact us</h1>
+        </div>
+
+    </section>
+
+<!-- form -->
+      
+    <section class="contact-container">
+        <div class="info-column">
+            <h2>You can find us at</h2>
+            <div class="info-group">
+                <div class="info-label">EMAIL</div>
+                <div class="info-value">hello@tyler.com</div>
+            </div>
+            <div class="info-group">
+                <div class="info-label">PHONE NUMBER</div>
+                <div class="info-value">202-555-0188</div>
+            </div>
+             <div class="info-group">
+                <div class="info-label">LOCATION</div>
+                <div class="info-value">2360 Hood Avenue, San Diego, CA, 92123</div>
+            </div>
+            <div class="social-icon">
+
+              <div class="icon">  <i class="fa-brands fa-twitter"></i></div>
+               <div class="icon"> <i class="fa-brands fa-instagram"></i></div>
+               <div class="icon"> <i class="fa-brands fa-youtube"></i></div>
+            </div>
+        </div>
+
+        <div class="form-column">
+            <h2>Let's get in touch</h2>
+            <form>
+                <div class="form-group">
+                    <input type="text"placeholder="Your Name *" required>
+</div>
+       <div class="form-group">
+                    <input type="email"placeholder="Your Email*" required>
+</div>
+<div class="form-group">
+                  <textarea placeholder="Message" required></textarea>
+</div>
+               <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+
+    </section>
+
+
+    <!-- image -->
+    <section class="images">
+    <div class="container">
+    <h1>We are optimists who love to <br>work together</h1>
+    <div class="image-box">
+        
+        <div class="image">
+            <img src="https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/avatar_1.jpg">
+        </div>
+        
+        <div class="image">
+            <img src="https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/avatar_2.jpg">
+        </div>
+       
+        <div class="image">
+            <img src="https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/avatar_3.jpg">
+        </div>
+       
+        <div class="image">
+            <img src="https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/avatar_4.jpg">
+        </div>
+    </div>
+    </div>
+
+    </section>
+    <div class="footer">
+    <div class="question-links">
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div class="icon">
+        <div class=" footer-image">
+            <img src="https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/logo-green.svg" alt="">
+        </div>
+    </div>
+    <div class="footer-right">
+        <span>Love Nature BY Tyler Moore</span>
+    </div>
+ </div>
+</body>
+</html>

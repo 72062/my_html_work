@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inconsolata:wght@200..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>services</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Roboto", sans-serif;
+            background-color: #fcfcfc;
+        }
+        
+        .services-section {
+            background-image: url(https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2025/06/ales-krivec-N-aTikX-b00-unsplash.jpg);
+            background-repeat: no-repeat;
+            background-size: cover; 
+            background-position: center;
+            width: 100%;
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 80px;
+            box-sizing: border-box;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 1100px;
+        }
+        
+        .links {
+            display: flex;
+            gap: 20px;
+        }
+        
+        .links a {
+            color: white;
+            text-decoration: none;
+            font-weight: normal;
+        }
+        
+        .logo img {
+            height: 45px;
+            width: 50px;
+        }
+        
+        .text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-grow: 1; 
+            box-sizing: border-box;
+        }
+        
+        .text h1 {
+            color: white;
+            font-size: 50px;
+            margin: 0;
+            font-weight: normal;
+        }
+
+        /* ----- 2nd Part ----- */
+        .service-image {
+            max-width: 900px; 
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 60px;
+            margin: 80px auto; 
+            padding: 0 20px; 
+            box-sizing: border-box;
+        }
+        
+        .image-container {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+        
+        .service-images {
+            flex: 1;
+            max-width: 300px;
+            height: 450px;
+        }
+        
+        .service-images img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .content-box {
+            flex: 1.5; 
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        
+        .container h2 {
+            font-weight: normal;
+            font-size: 25px;
+            margin: 0;
+            color: #646161;
+        }
+
+        .content-box p {
+            color: #555;
+           font-size: 12px;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        .content-box .sub-text {
+            color: #666;
+            font-size: 12px;
+        }
+        
+        .content-box .price {
+            font-weight: 500; 
+            margin-top: 5px;
+             color: #646161;
+            font-size: 1.1rem;
+        }
+        
+        .btn {
+            align-self: flex-start;
+            background-color: transparent;
+            border: 1px solid black;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .btn:hover {
+            background-color: #333;
+            color: white;
+        }
+
+        /* 3rd part */
+       .love-nature{
+        background-color: rgb(248, 248, 239)
+       }
+         .container {
+            display: flex;
+            align-items: center;
+            max-width: 900px;
+            width: 90%;
+            padding: 30px 15px;
+            margin: 0 auto;
+            
+            gap: 80px;
+        }
+        
+        .paragraph {
+            flex: 0 0 55%;
+        }
+        
+        .paragraph h2 {
+            font-weight: 400;
+            margin-bottom: 20px;
+            margin-top: 0;
+            color: #848587;
+        }
+        
+        .paragraph p {
+            margin-bottom: 25px;
+            line-height: 1.6;
+            color: #808388;
+        }
+        
+        .icon {
+            display: flex;
+            flex-direction: column;
+            gap: 40px; 
+            flex: 1;
+        }
+        
+        .row {
+            display: flex;
+            gap: 40px; 
+            justify-content: space-between;
+        }
+        
+        .item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            flex: 1;
+        }
+        
+        .image {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 15px;
+            display: flex;
+            background-color: white;
+            border-radius: 40px;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        
+        .image i {
+            font-size: 25px; 
+            color: #7f857f;
+        }
+        
+
+        .item span {
+            white-space: nowrap; 
+            font-size: 0.9rem;
+            color: #666a68;
+        }
+/*  footer */
+ .footer{
+    
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 10%;
+box-sizing: border-box;
+ }
+ .service-links a{
+    text-decoration: none;
+    color: gray;
+    padding: 0 10px;
+ }
+   .footer-right{
+    color:gray ;
+   }  
+   .service-icon img{
+    width: 40px;
+   }    
+    </style>
+</head>
+<body>
+    <section class="services-section">
+        <header>
+            <div class="logo">
+                <img src="https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/logo-white.svg" alt="Logo">
+            </div>
+            <div class="links">
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </header>
+        <div class="text">
+            <h1>Our Services</h1>
+        </div>
+    </section>
+
+    <!-- 2nd part images -->
+    <section class="service-image">
+        <!-- 1st Web Design -->
+        <div class="image-container">
+            <div class="service-images">
+                <img src="https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/service-1.jpg" alt="Web Design">
+            </div>
+            <div class="content-box">
+                <h2>Web Design</h2>
+                <p>Tell your visitor how your service can improve their life. Connect with <br>the problem that they’re trying to solve and address any objections <br>you think they might have.</p>
+                <p class="sub-text">What is the biggest benefit your customer will get from this? Keep your<br> target audience in mind.</p>
+                <span class="price">From $99</span>
+                <button class="btn">Start a Project</button>
+            </div>
+        </div>
+
+        <!-- 2nd Graphic Design -->
+        <div class="image-container">
+            <div class="service-images">
+                <img src="https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/service-2.jpg" alt="Graphic Design">
+            </div>
+            <div class="content-box">
+                <h2>Graphic Design</h2>
+                <p>Tell your visitor how your service can improve their life. Connect with<br> the problem that they’re trying to solve and address any objections <br>you think they might have.</p>
+                <p class="sub-text">What is the biggest benefit your customer will get from this? Keep your<br> target audience in mind.</p>
+                <span class="price">From $99</span>
+                <button class="btn">Start a Project</button>
+            </div>
+        </div>
+
+        <!-- 3rd Content Creation -->
+        <div class="image-container">
+            <div class="service-images">
+                <img src="https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/service-3.jpg" alt="Content Creation">
+            </div>
+            <div class="content-box">
+                <h2>Content Creation</h2>
+                <p>Tell your visitor how your service can improve their life. Connect with <br>the problem that they’re trying to solve and address any objections<br> you think they might have.</p>
+                <p class="sub-text">What is the biggest benefit your customer will get from this? Keep your<br> target audience in mind.</p>
+                <span class="price">From $99</span>
+                <button class="btn">Start a Project</button>
+            </div>
+        </div>
+    </section>
+    <!-- 3rd part -->
+    <section class="love-nature">
+         <div class="container">
+        <div class="paragraph">
+            <h2>Why Love Nature</h2>
+            <p>Your customers just learned what services you offer. Tell them why they should work with you or your team, for example you could highlight your experience and positive client reviews.</p>
+            <p>The badges illustrate this.  We also focus on key benefits they will get while using our services, namely quick turnaround times and dedicated support. You could also use them to show awards you won for your best work.</p>
+        </div>
+        
+        <div class="icon">
+            
+            <div class="row">
+                <div class="item">
+                    <div class="image">
+                        <i class="fa-solid fa-award"></i>
+                    </div>
+                    <span>8 Years Experience</span>
+                </div>
+               
+                <div class="item">
+                    <div class="image">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span>5 Star Rating</span>
+                </div>
+            </div>
+
+            
+            <div class="row">
+                <div class="item">
+                    <div class="image">
+                        <i class="fa-solid fa-rotate"></i>
+                    </div>
+                    <span>Quick Turnaround</span>
+                </div>
+              
+                <div class="item">
+                    <div class="image">
+                        <i class="fa-solid fa-life-ring"></i>
+                    </div>
+                    <span>Dedicated Support</span>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+
+    </section>
+<div class="footer">
+    <div class="service-links">
+        <a href="home.html">Home</a>
+         <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+           <a href="contact.html">Contact</a>
+    </div>
+    <div class="service-icon">
+        <img src="https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/logo-green.svg" alt="">
+        
+    </div>
+
+    <div class="footer-right">
+        <span>Love Nature BY Tyler Moore</span>
+    </div>
+ </div>
+</body>
+</html>
